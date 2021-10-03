@@ -1,12 +1,4 @@
-# O'Blog
-
-![Aperçu](integration/apercu.png "Aperçu")
-
-Chez O'Clock, ce qu'on aime le plus, c'est nos étudiants (vous, du coup :heart:).
-
-Et nos étudiants, ils ont plein d'histoires à raconter. Des aventures rocambolesques, des astuces techniques révolutionnaires, et même des blagues nulles.
-
-Du coup, il nous faudrait une petite plateforme pour pouvoir partager tout ça avec le monde entier. Un blog quoi. Et comme on est _corporate_, on va l'appeller O'Blog ! :tada:
+# Training Meteos de villes du monde
 
 ## Objectifs
 Mettre en place :
