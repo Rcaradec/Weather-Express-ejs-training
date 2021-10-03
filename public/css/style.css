@@ -3,22 +3,23 @@
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
-  background-color: #F0F2F5;
+  background-color: #f0f2f5;
 }
 
 a {
-  color: #9980FA;
+  color: #9980fa;
   text-decoration: none;
 }
 
-a:hover, a:focus {
-  color: #5758BB;
+a:hover,
+a:focus {
+  color: #5758bb;
 }
 
 .banner {
-  background: linear-gradient(135deg, #9980fa 0%,#5758bb 100%);
+  background: linear-gradient(135deg, #878e88 0%, #b5d0bf 100%);
   text-align: center;
   padding: 2rem;
 }
@@ -51,7 +52,9 @@ a:hover, a:focus {
 .card-img {
   height: 20rem;
   width: 100%;
-  object-fit: cover;
+  object-fit: center;
+  border-radius: 15px;
+  box-shadow: rgba(102, 30, 238, 0.2) 0px 27px 29px 0px;
 }
 
 .card-action {
@@ -83,8 +86,8 @@ a:hover, a:focus {
   margin-top: 0.3rem;
 }
 
-.pure-g [class*=pure-u] {
-  font-family: 'Work Sans', sans-serif;
+.pure-g [class*="pure-u"] {
+  font-family: "Work Sans", sans-serif;
 }
 
 .pure-menu-item {
@@ -101,14 +104,14 @@ a:hover, a:focus {
 }
 
 .pure-button {
-  background-color: #9980FA;
+  background-color: #3e9ab1;
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
 .pure-button:hover {
-  background-color: #5758BB;
+  background-color: #5758bb;
   color: white;
 }
 
@@ -120,4 +123,60 @@ a:hover, a:focus {
   .banner-logo {
     width: 6em;
   }
+}
+
+/*  meteo card */
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+.card_weather {
+  margin: 100px auto;
+  width: 340px;
+  height: 220px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0.3px 0.3px 0.3px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
+
+.city,
+.date {
+  color: gray;
+  margin-left: 35px;
+}
+
+.city {
+  padding-top: 50px;
+  font-size: 26px;
+}
+
+.date {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.sun {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 35px;
+  width: 200px;
+  height: 70px;
+  background: #2a6972;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  border: 1px inset yellow solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.temp {
+  padding: 20px;
+  font-size: 20px;
+  color: white;
 }

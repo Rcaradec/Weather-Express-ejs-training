@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Paris",
+    "population": 2161000,
+    "temperature": 18,
+    "photo": "./images/paris.jpg"
+  },
+  {
+    "name": "Helsinki",
+    "population": 800000,
+    "temperature": 12
+  },
+  {
+    "name": "Reykjavik",
+    "population": 131136,
+    "temperature" : 8
+
+  },
+  {
+    "name": "Milan",
+    "population": 1500000,
+    "temperature" : 19
+
+  },
+  {
+    "name": "Barcelone",
+    "population": 1665000,
+    "temperature" : 20
+
+  },
+  {
+    "name": "Kiev",
+    "population": 2900000,
+    "temperature" : 11
+
+  },
+  {
+    "name": "Berlin",
+    "population": 3800000,
+    "temperature" : 15
+  },
+  {
+    "name": "Zürich",
+    "population": 420000,
+    "temperature" : 13
+
+  },
+  {
+    "name": "Vienne",
+    "population": 1915000,
+    "temperature" : 13
+  },
+  {
+    "name": "Bruxelles",
+    "population": 1225000,
+    "temperature" : 13
+
+  },
+  {
+    "name": "Amsterdam",
+    "population": 900000,
+    "temperature" : 13
+
+  },
+  {
+    "name": "Oslo",
+    "population": 690000,
+    "temperature" : 12
+
+  },
+  {
+    "name": "Stockholm",
+    "population": 1000000,
+    "temperature" : 11
+
+  },
+  {
+    "name": "Tokyo",
+    "population": 14000000,
+    "temperature" : 19
+
+  },
+  {
+    "name": "Bombay",
+    "population": 18500000,
+    "temperature" : 26
+
+  }
+]

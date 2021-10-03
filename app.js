@@ -1,4 +1,8 @@
 const express = require("express");
+var dayjs = require("dayjs");
+//import dayjs from 'dayjs' // ES 2015
+dayjs().format();
+
 const router = require("./config/router");
 
 // config serveur
