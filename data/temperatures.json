@@ -1,0 +1,62 @@
+[
+  {
+    "city": "Paris",
+    "temperature": 18
+  },
+  {
+    "city": "Helsinki",
+    "temperature": 12
+  },
+  {
+    "city": "Reykjavik",
+    "temperature": 8
+  },
+  {
+    "city": "Milan",
+    "temperature": 23
+  },
+  {
+    "city": "Barcelone",
+    "temperature": 23
+  },
+  {
+    "city": "",
+    "temperature": 12
+  },
+  {
+    "city": "Berlin",
+    "temperature": 19
+  },
+  {
+    "city": "Zürich",
+    "temperature": 23
+  },
+  {
+    "city": "Vienne",
+    "temperature": 20
+  },
+  {
+    "city": "Bruxelles",
+    "temperature": 17
+  },
+  {
+    "city": "Amsterdam",
+    "temperature": 14
+  },
+  {
+    "city": "Oslo",
+    "temperature": 14
+  },
+  {
+    "city": "Stockholm",
+    "temperature": 13
+  },
+  {
+    "city": "Tokyo",
+    "temperature": 18
+  },
+  {
+    "city": "Bombay",
+    "temperature": 32
+  }
+]
